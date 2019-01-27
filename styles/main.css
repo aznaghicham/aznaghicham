@@ -1,0 +1,155 @@
+body{
+    background-color: #ddd;
+
+}
+/*navbar*/
+.navbar{
+    background: rgb(69, 113, 233);
+}
+
+.navbar-nav a{
+    font-size:2rem ;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Lateef', cursive;
+}
+.navbar-nav li:hover a{
+    border-bottom: 2px solid rgb(50, 52, 161);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+  } 
+  #collapsibleNavbar > ul > li > a > i{
+      margin-right: 2rem;
+  }
+  .navbar-brand {
+   font-family: canon;
+    margin-right: 0rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  transform: rotate(-10deg);
+}
+.navbar-brand .brandpc{
+   font-family: 'Ink Free';
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  /*jumbotron*/
+  .jumbotron-heading{
+    color: #fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Lateef', cursive;
+  }
+  #home > section{
+    margin-top: 3.8rem;
+  }
+  .jumbotron {
+    padding: 0.5rem 0rem;
+    margin-bottom: 1rem;
+  }
+/*footer*/
+.page-footer{
+    background: rgb(69, 113, 233);
+    padding-top: 1rem;
+    
+}
+footer ul li {
+    font-size: 2rem;
+    color: rgb(69, 113, 233);
+    border: 1px solid white;
+    border-radius:10px;
+    width: 5rem;
+    background: white;
+}
+
+/*button*/
+.btn{
+    background: rgb(69, 113, 233);
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Lateef', cursive;
+}
+
+/*cards*/
+.card-img-top{
+    border: 5px solid #fff;
+}
+
+/*page : did you know - video*/
+
+body > div > div > div.card-body > iframe{
+width: 1600px;
+height: 80vh;
+}
+/*page : videos :sections*/
+
+#section1,#section2,#section3{
+    text-align: right;
+    margin: 1rem;
+    border-bottom: 4px solid #fff;
+}
+#section1 > h3{
+    text-align: right;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+#section1 > h3,#section2 > h3,#section3 > h3{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#videos .sections{
+    margin-bottom:0.5rem;
+}
+.sections > div > div > div > div > a{
+    font-size: 1rem;
+}
+.sections .vid{
+    height: 150px;
+    background: #555;
+}
+/*page : courses*/
+.main{
+    margin-top: 5.5rem;
+    text-align: right;
+}
+.main a{
+    color: #fff;
+
+}
+#accordion ul > li:nth-child(1){
+    background: #555;
+}
+#accordion > div a > i{
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    
+}
+/*page : paractice*/
+#accordion  div  ul  li  span{
+    margin-right: 2rem;
+}
+/* fixing footer and navbar isuue with main centent*/
+#home > div{
+    margin-bottom: 9rem;
+}
+#home > section{
+    margin-top: 3.8rem;
+    }
+#videos > div{
+    margin-top:2rem;
+    margin-bottom: 9rem;
+}
+#courses > div{
+    margin-top:4.5rem;
+    margin-bottom: 12rem; 
+}
+#practice > div{
+    margin-top:4.5rem;
+    margin-bottom: 12rem; 
+}
