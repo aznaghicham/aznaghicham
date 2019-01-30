@@ -4,7 +4,7 @@ body{
 }
 /*navbar*/
 .navbar{
-    background: rgb(69, 113, 233);
+    background: #1d1d1d;
 }
 
 .navbar-nav a{
@@ -14,13 +14,13 @@ body{
     font-family: 'Lateef', cursive;
 }
 .navbar-nav li:hover a{
-    border-bottom: 2px solid rgb(50, 52, 161);
+    border-bottom: 2px solid rgb(222, 235, 41);
 }
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(222, 235, 41, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
   .custom-toggler.navbar-toggler {
-    border-color: rgb(255,255,255);
+    border-color: rgb(222, 235, 41);
   } 
   #collapsibleNavbar > ul > li > a > i{
       margin-right: 2rem;
@@ -37,6 +37,7 @@ body{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+    color: rgb(222, 235, 41);
 }
   /*jumbotron*/
   .jumbotron-heading{
@@ -44,32 +45,34 @@ body{
     font-family: 'Reem Kufi', sans-serif;
     font-family: 'Lateef', cursive;
   }
-  #home > section{
-    margin-top: 3.8rem;
-  }
+ 
   .jumbotron {
     padding: 0.5rem 0rem;
     margin-bottom: 1rem;
   }
 /*footer*/
 .page-footer{
-    background: rgb(69, 113, 233);
+    background: #1d1d1d;
     padding-top: 1rem;
     
 }
 footer ul li {
-    font-size: 2rem;
-    color: rgb(69, 113, 233);
+    font-size: 1rem;
+    color: #1d1d1d;
     border: 1px solid white;
     border-radius:10px;
-    width: 5rem;
-    background: white;
+    width: 2.5rem;
+    background: rgb(222, 235, 41);
 }
 
 /*button*/
+#home > section{
+    margin-top: 3.8rem;
+  }
 .btn{
-    background: rgb(69, 113, 233);
+    border: 3px solid rgb(222, 235, 41);
     color: #fff;
+    background: #1d1d1d;
     font-size: 2rem;
     font-family: 'Reem Kufi', sans-serif;
     font-family: 'Lateef', cursive;
