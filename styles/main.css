@@ -125,7 +125,7 @@ height: 80vh;
     color: #fff;
 
 }
-.main #collapseThree a {
+.main .card a {
     color: black;
 }
 #accordion ul > li:nth-child(1){
