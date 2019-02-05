@@ -116,6 +116,10 @@ height: 80vh;
     height: 150px;
     background: #555;
 }
+#videos .card i{
+    color : red;
+    font-size: 2rem;
+}
 /*page : courses*/
 .main{
     margin-top: 5.5rem;
@@ -153,6 +157,27 @@ height: 80vh;
     color: #fff;
     width: 4rem;
     padding: 4px 0;
+}
+.main .collapse .badge a {
+    color: #0f0;
+    display: block;
+    text-decoration: none;
+}
+/*practice pages */
+#practice_pages #accordion > div > div.card-header > a{
+    color: #000;
+    padding-bottom: 4px;
+    font: bold;
+    direction: rtl;
+}
+#practice_pages #accordion > div > div.card-header > a i{
+    color: #deeb29;
+    background: #1d1d1d;
+    padding: 0 9px;
+}
+
+#practice_pages #accordion ul > li:nth-child(1){
+    background: #ddd;
 }
 /* fixing footer and navbar isuue with main centent*/
 
