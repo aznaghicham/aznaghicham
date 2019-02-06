@@ -82,7 +82,28 @@ footer ul li {
 .card-img-top{
     border: 5px solid #fff;
 }
-
+/*gestion des notes*/
+#home #notes{
+    background: #555;
+    text-align: right;
+    border: 3px solid #fff;
+}
+#home #notes button{
+    border: 3px solid rgb(222, 235, 41);
+    color: #fff;
+    background: #1d1d1d;
+    font-size: 1.3rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Lateef', cursive;
+    margin-right: 2rem;
+}
+#home #notes p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Lateef', cursive;
+    margin-right: 2rem;
+}
 /*page : did you know - video*/
 
 body > div > div > div.card-body > iframe{

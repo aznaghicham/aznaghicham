@@ -14,7 +14,16 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lateef|Reem+Kufi" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+                <!-- gestion des notes -->
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div1").load("pages/results.html #"+$('#input').val());
+          });
+        });
+        </script>
 
         <!-- Custom styles for this template -->
         <link href="styles/main.css" rel="stylesheet">
@@ -57,6 +66,14 @@
         </section>
             <!-- main content-->
         <div class="container">
+
+            <div id="notes">
+                <p>للحصول على نقط المراقبة تفضل من هنا</p>
+                <div id="div1"></div>
+                <input type="text" id="input" value="الرمز السري">
+                <button>ارسال</button>
+            </div>
+                
         
             <div class="card-columns">
 
