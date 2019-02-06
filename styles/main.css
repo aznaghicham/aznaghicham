@@ -107,10 +107,17 @@ footer ul li {
     display: inline-block;
 }
 #home #notes #div1 ul{
-    display: inline-block;
+    
     color: #fff;
     direction: rtl;
     margin-right: 2rem;
+}
+#home #notes #div1 ul li:nth-child(1),#home #notes #div1 ul li:nth-child(6){
+    list-style: none;
+    color: rgb(250, 228, 31);
+    border: 1px solid rgb(250, 228, 31);
+    display: inline-block;
+   
 }
 /*page : did you know - video*/
 
