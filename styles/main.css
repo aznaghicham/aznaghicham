@@ -103,6 +103,14 @@ footer ul li {
     font-family: 'Reem Kufi', sans-serif;
     font-family: 'Lateef', cursive;
     margin-right: 2rem;
+    border-bottom: 1px solid #fff;;
+    display: inline-block;
+}
+#home #notes #div1 ul{
+    display: inline-block;
+    color: #fff;
+    direction: rtl;
+    margin-right: 2rem;
 }
 /*page : did you know - video*/
 
