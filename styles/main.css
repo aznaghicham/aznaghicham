@@ -50,6 +50,9 @@ body{
     padding: 0.5rem 0rem;
     margin-bottom: 1rem;
   }
+  
+
+  
 /*footer*/
 .page-footer{
     background: #1d1d1d;
@@ -103,7 +106,9 @@ footer ul li {
     font-family: 'Reem Kufi', sans-serif;
     font-family: 'Lateef', cursive;
     margin-right: 2rem;
-    border-bottom: 1px solid #fff;;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding-left: 4px;
     display: inline-block;
 }
 #home #notes #div1 ul{
